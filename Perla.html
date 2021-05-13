@@ -1,0 +1,52 @@
+<html>
+
+
+<script src="https://code.jquery.com/jquery-2.0.3.min.js"></script>
+<script src="https://www.jqueryscript.net/demo/jQuery-Plugin-For-Water-Ripple-Animation-ripples/js/jquery.ripples.js"></script>
+
+<div class="demo" style="width:1440px; height:800px;background: url(https://i.imgur.com/lxLxEkP.png)">
+</div>
+<script>
+$('.demo').ripples({
+
+  // Image Url
+  imageUrl: null,
+
+  // The width and height of the WebGL texture to render to. 
+  // The larger this value, the smoother the rendering and the slower the ripples will propagate.
+  resolution: 256,
+
+  // The size (in pixels) of the drop that results by clicking or moving the mouse over the canvas.
+  dropRadius: 20,
+
+  // Basically the amount of refraction caused by a ripple. 
+  // 0 means there is no refraction.
+  perturbance: 0.04,
+
+  // Whether mouse clicks and mouse movement triggers the effect.
+  interactive: true,
+
+  // The crossOrigin attribute to use for the affected image. 
+  crossOrigin: ''
+  
+});
+// show the effect
+$('.demo').ripples('show');
+
+// hide the effect
+$('.demo').ripples('hide');
+
+// destroy the plugin
+$('.demo').ripples('destroy');
+
+// play the simulation's state
+$('.demo').ripples('play');
+
+// pause the simulation's state
+$('.demo').ripples('pause');
+
+// add a drop at the element's relative coordinates (x, y). 
+// radius controls the drop's size and strength the amplitude of the resulting ripple.
+$('.demo').ripples('drop', x, y, radius, strength);
+</script>
+</html>
