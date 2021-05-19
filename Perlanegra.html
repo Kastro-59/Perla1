@@ -212,7 +212,7 @@ Particle3D.prototype.updatePhysics = function() {
 
 }
 
-var TO_RADIANS = Math.PI/90; 
+var TO_RADIANS = Math.PI/180; 
 
 THREE.Vector3.prototype.rotateY = function(angle){
 					
@@ -295,7 +295,7 @@ function randomRange(min, max)
 				container = document.createElement('div');
 				document.body.appendChild(container);
 
-				camera = new THREE.PerspectiveCamera( 25, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 10000 );
+				camera = new THREE.PerspectiveCamera( 75, SCREEN_WIDTH / SCREEN_HEIGHT, 1, 10000 );
 				camera.position.z = 1000;
 
 				scene = new THREE.Scene();
@@ -305,7 +305,7 @@ function randomRange(min, max)
 				renderer.setSize(SCREEN_WIDTH, SCREEN_HEIGHT);
 				var material = new THREE.ParticleBasicMaterial( { map: new THREE.Texture(particleImage) } );
 					
-				for (var i = 0; i < 500; i++) {
+				for (var i = 0; i < 80; i++) {
 
 					particle = new Particle3D( material);
 					particle.position.x = Math.random() * 2000 - 1000;
