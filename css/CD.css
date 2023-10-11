@@ -1,8 +1,7 @@
-  
    #animation{
-	position: relative;
+	position: absolute;
 	left: 450px;
-	top: 800px;
+	top: 500px;
 	height: 364px;
 	width: 604px;
 	}
