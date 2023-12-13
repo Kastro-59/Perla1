@@ -10067,7 +10067,7 @@ jQuery.ajaxPrefilter(function(options) {
 			mount_point: "", //For Icecast server
 			type: "/;type=mp3",
             streampath: "https://zenoplay.zenomedia.com/api/zenofm/nowplaying/emertvc73mruv?_=1701269240000",
-			cors: "https://cors-anywhere.herokuapp.com/",
+			cors: "https://kastro-59.github.io/Perla/Data/data.html/",
             logo: "img/logo.png",
 			servertitle: "My Radio Title", //For Shoutcast v2 server
             show_listeners: true,    
