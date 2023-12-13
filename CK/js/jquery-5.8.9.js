@@ -10067,7 +10067,7 @@ jQuery.ajaxPrefilter(function(options) {
 			mount_point: "", //For Icecast server
 			type: "/;type=mp3",
             streampath: "https://zenoplay.zenomedia.com/api/zenofm/nowplaying/emertvc73mruv?_=1701269240000",
-			cors: "https://kastro-59.github.io/Perla/Data/data.html",
+			cors: "https://cors-anywhere.herokuapp.com/",
             logo: "img/logo.png",
 			servertitle: "My Radio Title", //For Shoutcast v2 server
             show_listeners: true,    
@@ -10114,7 +10114,7 @@ jQuery.ajaxPrefilter(function(options) {
             else if(settings.version == "icecast") {
                 audio.src = settings.URL + "/" + settings.mount_point;
                 settings.src = audio.src;
-                var dataURL = settings.cors + "/" + settings.streampath;
+                var dataURL = settings.cors  + settings.streampath;
                 getIC(dataURL);				
             }
         });
@@ -10438,7 +10438,7 @@ jQuery.ajaxPrefilter(function(options) {
                     $.ajax ({
                     type: 'GET',    
                     dataType: 'json',
-                    url: settings.cors + "/" + settings.streampath,
+                    url: url,
                     success: 
                         function(data) {
                             var result = findMPData(data);
