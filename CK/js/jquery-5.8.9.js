@@ -10438,7 +10438,7 @@ jQuery.ajaxPrefilter(function(options) {
                     $.ajax ({
                     type: 'GET',    
                     dataType: 'json',
-                    url: url,
+                    url: settings.cors  + settings.streampath,
                     success: 
                         function(data) {
                             var result = findMPData(data);
