@@ -1,6 +1,6 @@
 ACCEPT_LANGUAGE      es-ES,es;q=0.9,pt;q=0.8
 ACCEPT_ENCODING      gzip, deflate, br
-REFERER              https://robwu.nl/cors-anywhere.html
+REFERER              https://kastro-59.github.io/Perla/Data/data.html
 SEC_FETCH_DEST       document
 SEC_FETCH_USER       ?1
 SEC_FETCH_MODE       navigate
@@ -15,7 +15,7 @@ SEC_CH_UA            "Not_A Brand";v="8", "Chromium";v="120", "Google Chrome";v=
 CACHE_CONTROL        no-cache
 PRAGMA               no-cache
 CONNECTION           keep-alive
-HOST                 robwu.nl
+HOST                 kastro-59.github.io/Perla/Data/
 
 
 Request entity body:
