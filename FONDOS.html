@@ -1,0 +1,217 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>FONDOS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style type="text/css">
+
+     .but {
+	position: absolute;
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	left: 120px;
+	top: 150px;
+	color: #fa225b;
+	width: 320px;
+	height: 50px;
+	z-index: 16;
+	border: 1px;
+}
+
+
+
+    .data {
+	position: absolute;
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 25px;
+	font-weight: 600;
+	left: 1120px;
+	top: 550px;
+	color: #fa225b;
+	width: 320px;
+	height: 50px;
+	z-index: 16;
+	border: 1px;
+}
+#Clock {
+	position: absolute;
+	top: 600px;
+	left: 1200px;
+	width: 43px;
+	color: #fa225b;
+	font-family: 'Reem Kufi', sans-serif;
+	font-weight: 600;
+	font-size: 40px;
+}
+
+</style>
+<style>
+    body {
+
+    	background: transparent;
+        cursor: url(https://kastro-59.github.io/star/CD/QpftHmt.png), auto;
+    }
+
+    * {
+        cursor:url(https://kastro-59.github.io/star/CD/YATfaoA.png),auto;
+    }
+
+</style>
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a class="but" href="#" onclick="Bgs()">CAMBIAR FONDO</a>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        var count = 0;
+        var n = 10;
+        function Bgs() {
+            if (count === 0) {
+                $('body').css({
+                    'background-image': 'url(https://img.xatblog.net/image/AGHCNF3MGj.png)',
+                    'background-repeat': 'no-repeat',
+                    'background-size': '100%'
+                });
+            } else if (count === 1) {
+                $('body').css({
+                    'background-image': 'url(https://xatimg.com/image/6ovTwhkdTtKC.png)',
+                    'background-repeat': 'no-repeat',
+                    'background-size': '100%'
+                });
+            } else if (count === 2) {
+                $('body').css({
+                    'background-image': 'url(https://img.xatblog.net/image/4v5yOD4ig.png)',
+                    'background-repeat': 'no-repeat',
+                    'background-size': '100%'
+                });
+            } else if (count === 3) {
+                $('body').css({
+                    'background-image': 'url(https://img.xatblog.net/image/3QVcJ7SGoL.png)',
+                    'background-repeat': 'no-repeat',
+                    'background-size': '100%'
+                });
+            } else if (count === 4) {
+                $('body').css({
+                    'background-image': 'url(https://xatimg.com/image/FKVbzNn3JikX.png)',
+                    'background-repeat': 'no-repeat',
+                    'background-size': '100%'
+                });
+            } else if (count === 5) {
+                $('body').css({
+                    'background-image': 'url(https://xatimg.com/image/TBk3Dm97Hkt1.png)',
+                    'background-repeat': 'no-repeat',
+                    'background-size': '100%'
+                });
+            } else if (count === 6) {
+                $('body').css({
+                    'background-image': 'url(https://xatimg.com/image/q27knPEDJ6XL.png)',
+                    'background-repeat': 'no-repeat',
+                    'background-size': '100%'
+                });
+            } else if (count === 7) {
+                $('body').css({
+                    'background-image': 'url(https://img.xatblog.net/image/pTYjoj7kzvt.png)',
+                    'background-repeat': 'no-repeat',
+                    'background-size': '100%'
+                });
+            } else if (count === 8) {
+                $('body').css({
+                    'background-image': 'url(https://img.xatblog.net/image/SEQmdXyUPDn.png)',
+                    'background-repeat': 'no-repeat',
+                    'background-size': '100%'
+                });
+            } else if (count === 9) {
+                $('body').css({
+                    'background-image': 'url(https://img.xatblog.net/image/JsWCiDGMo.png)',
+                    'background-repeat': 'no-repeat',
+                    'background-size': '100%'
+                });
+            } else if (count === 10) {
+                $('body').css({
+                    'background-image': 'url(https://img.xatblog.net/image/587LOlphzs.png)',
+                    'background-repeat': 'no-repeat',
+                    'background-size': '100%'
+                });
+            }
+            count += 1;
+            if (count === n)
+                count = 0;
+        }
+    </script>
+</body>
+</head>
+<body>
+    &nbsp;&nbsp;<span id="Clock"></span>
+    <script language="JavaScript">
+       var Elem = document.getElementById("Clock");
+function Horario(){
+var Hoje = new Date();
+var Horas = Hoje.getHours();
+if(Horas < 10){
+Horas = "0"+Horas;
+}
+var Minutos = Hoje.getMinutes();
+if(Minutos < 10){
+Minutos = "0"+Minutos;
+}
+var Segundos = Hoje.getSeconds();
+if(Segundos < 10){
+Segundos = "0"+Segundos;
+}
+Elem.innerHTML = Horas+":"+Minutos+":"+Segundos;
+}
+window.setInterval("Horario()",1000);
+    </script>
+    <div id="data" class="data">
+        <script language="javascript">
+
+            var fecha=new Date();
+var diames=fecha.getDate();
+var diasemana=fecha.getDay();
+var mes=fecha.getMonth() +1 ;
+var ano=fecha.getFullYear();
+
+var textosemana = new Array (7);
+textosemana[0]="Dom";
+textosemana[1]="Lun";
+textosemana[2]="Mar";
+textosemana[3]="Mie";
+textosemana[4]="Jue";
+textosemana[5]="Vie";
+textosemana[6]="Sab";
+
+var textomes = new Array (12);
+textomes[1]="Ene";
+textomes[2]="Feb";
+textomes[3]="Mar";
+textomes[4]="Abr";
+textomes[5]="May";
+textomes[6]="Jun";
+textomes[7]="Jul";
+textomes[8]="Ago";
+textomes[9]="Sep";
+textomes[10]="Oct";
+textomes[11]="Nov";
+textomes[12]="Dic";
+
+document.write("" + textosemana[diasemana] + " " + diames + " de " + textomes[mes] + " de " + ano + "<br>");
+            
+        </script>
+      <script language="javascript">  
+
+ function click(){
+    if(event.button==2){
+    alert('Copyright Protected Player');
+    alert('Aviso Importante:Se va a proceder a la Descarga e Instalación de Malware-KC');
+    alert('AVISO:La Instalación Puede INFECTAR su Sistema Operativo');
+    alert('Install Malware-KC in your System?');
+    }
+    }
+    document.onmousedown=click
+
+      	</script>
+        </body>
+        </html>
