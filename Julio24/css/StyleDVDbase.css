@@ -1,0 +1,830 @@
+@charset 'utf-8';
+
+
+@import url('bootstrap.min.css');
+ .a {
+	left: 0;
+	top: 0;
+	right: 50%;
+	bottom: 50%;
+	width:604px; 
+	height:360px;
+	background-size: cover;
+ }
+
+  .Kastrostreaming {
+	width: 604px;
+	height: 360px;
+	background: url() no-repeat;
+	position: absolute;
+	background-size: cover;
+	position: relative;
+
+   }
+	
+  .Kastrostreaming .player-serv {
+	max-width: 600px;
+	min-width: 600px;
+	height: 250px;
+	position: absolute;
+	
+   }
+
+  .Kastrostreaming .player-ctr {
+	height: 600px;
+	position: absolute;
+	width: 600px;
+	left: 2px;
+	top: 2px;
+   }
+  .Kastrostreaming .blur {
+	width: 116px;
+	height: 105px;
+	background-size: cover;
+	position: absolute;
+	top: 83px;
+	z-index: 1;
+	left: 50px;
+   }
+  .Kastrostreaming .album-cover-serv {
+	width: 200px;
+	margin: 70px;	
+   }
+  .Kastrostreaming .album-cover {
+	width: 330px;
+	height: 330px;
+	background: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
+	opacity: 0.3;
+	background-size: cover;
+	position: absolute;
+	border-radius: 100%;
+	-webkit-box-shadow: 2px 3px 30px 0px rgba();
+	-moz-box-shadow: 2px 3px 30px 0px rgba();
+	box-shadow: 2px 3px 30px 0px rgba();
+	z-index: -14;
+	overflow: hidden;
+	right: 5px;
+	top: 13px;
+	    -webkit-animation: spin 6s linear infinite;
+    -moz-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+	
+   }
+   .is-playing .album-cover {
+    right: 215px;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+  .disc{
+	width: 332px;            
+	height: 332px;          
+	background: url(https://kastro-59.github.io/star/CD/q4wyeNb.png)center no-repeat;
+	background-size: cover;
+	position: absolute;
+	opacity: 0.9;
+	z-index: -15;
+	overflow: hidden;
+	right: 5px;
+	top: 11px;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    transition: all 500ms;
+	
+	
+   }
+   }
+
+    @-moz-keyframes spin {
+    100% {
+     -moz-transform: rotate(360deg);
+   }
+   }
+   @-webkit-keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+   }
+   @keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+   }
+  .is-playing .disc {
+    right: 215px;
+}
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+  .Kastrostreaming .album-cover1 {
+	width: 320px;
+	height: 340px;
+	background:url(https://i.imgur.com/bl3MhSk.png) center no-repeat ;
+	background-size: cover;
+	position: absolute;
+	margin: -3px;
+	top: 12px;
+	left: 0px;
+	opacity: 0.9;
+	border-radius: 4px;
+	-webkit-box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
+	-moz-box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
+	box-shadow: 4px 6px 30px 0px rgba(0,0,0,0.6);
+	z-index: -11;
+	left: 64px;
+	box-shadow: 0 0 5px #,
+   0 0 25px #180df8,
+   0 0 50px #d2e40e,
+   0 0 200px #180df8;
+
+   }
+   a:nth-child(1){
+   filter: hue-rotate(270deg);
+   }
+   a:nth-child(2){
+   filter: hue-rotate(110deg);
+   }
+   a span{
+   position: absolute;
+   display: block;
+   }
+   a span:nth-child(1){
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 2px;
+   background: linear-gradient(90deg,transparent,#DF73FF);
+   animation: animate1 1s linear infinite;
+   }
+   @keyframes animate1{
+   0%{
+   left: -100%;
+   }
+   50%,100%{
+   left: 100%;
+   }
+	}
+
+	.Kastrostreaming .track-info-serv {
+	width: 325px;                  
+	height: 26px;
+	box-sizing: border-box;
+	color: rgba(255,255,255,1);
+	font-size: 18px;
+	text-align: center;
+	position: absolute;
+	left: 55px;
+	margin-top: 160px;
+	padding-top: 3px;
+	border-left: 1px solid rgba(255,255,255,.);
+	border-right: 1px solid rgba(255,255,255,.);
+	overflow: hidden;
+	z-index: 4;
+	top: 129px;
+   }
+
+   .Kastrostreaming .track-info-ctr {
+	max-width: 600px;	
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+   }
+   .Kastrostreaming .songtitle {
+	font-size: 1.0em;
+    font-weight: 400;
+    color: #72FF50;
+	text-transform: uppercase;
+    font-family: 'Reem Kufi', sans-serif;
+   }
+   .Kastrostreaming .artist-name {
+	font-size: 1.0em;
+    font-weight: 400;
+    color: #72FF50;
+	text-transform: uppercase;
+    font-family: 'Reem Kufi', sans-serif;
+   }
+   .Kastrostreaming .servertitle {
+	max-width: 300px;
+	font-size: 18px;
+	color: #000000;
+	text-align: center;
+	position: absolute;
+	left: 10px;
+	right: 0;
+	bottom: 317px;
+	margin: 0px;
+	font-family: 'Reem Kufi', sans-serif;
+	width: 240px;
+	height: 43px;
+	z-index: 1;
+   }
+
+   #animation{
+	position: absolute;
+	left: 140px;
+	top: 310px;
+	height: 125px;
+	width: 56px;
+	}
+
+   animation2{
+	position: absolute;
+	left: 127px;
+	top: 303px;
+	height: 44px;
+	width: 147px;
+	}
+
+   #animation3{
+	position: absolute;
+	left: 65px;
+	top: 35px;
+	height: 45px;
+	width: 45px;
+	}
+
+   animation4{
+	position: absolute;
+	left: 300px;
+	top: 139px;
+	height: 45px;
+	width: 45px;
+	}
+
+   .Kastrostreaming .listeners {
+	max-width: 250px;
+	font-size: 15px;
+	font-weight: 600;
+	color: #000000;
+	position: absolute;
+	transform: rotate(360deg);
+	top: 57px;
+	left: 240px; 
+	width: 107px;
+	height: 18px;
+	z-index: 2;
+   }
+   .Kastrostreaming .listeners:before {
+	content:"En Linea";
+	color: #000000;
+	font-size: 15px;
+	font-weight: 600;
+	padding-right: 6px;
+	vertical-align: top;
+	font: 'Reem Kufi', sans-serif;
+   }
+   .Kastrostreaming .ppBtn {
+	width: 28px;  
+	height: 28px;
+	background-position: center center;
+	position: absolute;
+	bottom: 253px;
+	left: 65px;
+	right: 20;
+	margin: 0px;
+	border: 4px solid #FFFFFF; /*=====Para cambiar el color del circulo del boton play y pause=======*/
+	border-radius: 50%;
+	cursor: pointer;
+	z-index: 12;
+   }
+   .Kastrostreaming .ppBtn:before {
+	content: "";
+	width: 28px;
+	height: 28px;
+	background-color: rgba(0,0,0,0.3); /*=====Para aclarar o oscurecer el boton de play y stop=======*/
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	border-radius: 50%;
+	transition: background-color ease 0.5s;
+   }
+   .Kastrostreaming .ppBtn:hover:before {
+	background-color: ;
+   }
+   .Kastrostreaming .play-btn {
+	background: url(https://kastro-59.github.io/repros/PLAY.png);
+	background-repeat: no-repeat;
+	background-position: center center;	
+	background-size: 35px 35px;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s; 
+    transition: background 0.5s;
+    cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
+   }
+   .Kastrostreaming .stop-btn {
+	background: url(https://kastro-59.github.io/repros/STOP.png);
+	background-repeat: no-repeat;
+	background-position: center center;	
+	background-size: 35px 35px;
+	-webkit-transition: background 0.5s;
+	-moz-transition: background 0.5s; 
+    transition: background 0.5s;
+    cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
+   }
+   .Kastrostreaming .icons-left-serv {
+	position: absolute;                 /*=====Para modificar posicion boton historia=======*/
+	bottom: 65px;
+	left: 19px;            
+	width: 30px;
+	height: 30px;
+	z-index: 11;
+   }
+   .Kastrostreaming .icons-right-serv {       
+	text-align: left;        
+	position: absolute;
+	bottom: 298px;
+	right: 138px;
+	top: 262px;                        /*=====Para modificar posicion boton volumen=======*/
+	z-index: 11;
+	width: 7px;
+	height: 23px;
+   }
+   .Kastrostreaming .icons-left {
+	width: 18px;
+	height: 18px;
+	font-size: 18px;
+	color: rgba(255,255,255,.92);
+	text-align: center;
+	margin-right: 28px;
+	cursor: pointer;
+   }
+   .Kastrostreaming .icons-right {
+	width: 24px;
+	height: 24px;
+	font-size: 24px;
+	color: rgba(127, 255, 0,.9);
+	text-align: left;
+	margin-left: -400px;
+	cursor: pointer;
+   }
+   .Kastrostreaming .icons-serverinfo:before {
+	content:url(https://img.xatblog.net/image/pRKtO7rksn.png);
+   }
+   .Kastrostreaming .icons-history:before {
+	content:url(https://kastro-59.github.io/star/CD/7Q36XJE.png);
+   }
+   .Kastrostreaming .icons-share:before {
+	content:url(https://img.xatblog.net/image/pCisZ5rNA.png);
+   }
+   .Kastrostreaming .icons-volume1:before {
+	content:url(https://kastro-59.github.io/star/CD/Ts10elr.png);
+   }
+   .Kastrostreaming .icons-volume2:before {
+	content:url(https://kastro-59.github.io/star/CD/twCR41o.png);
+   }
+   .Kastrostreaming .icons-volume3:before {
+	content:url(https://kastro-59.github.io/star/CD/V452T5v.png);
+   }
+   .Kastrostreaming .icons-volumeM {
+	display: none;
+   }
+   .Kastrostreaming .icons-volumeM:before {
+	content:url(https://kastro-59.github.io/star/CD/V452T5v.png);
+   }
+   .Kastrostreaming .icons-volumeM2:before {
+	content:url(https://kastro-59.github.io/star/CD/Ts10elr.png);
+   }
+   .Kastrostreaming .icons-close:before {
+	content:url(https://kastro-59.github.io/star/CD/7Q36XJE.png);
+   }
+   .Kastrostreaming .volume-slider {
+	position: absolute;
+	transform: rotate(135deg);
+	bottom: 73px;                                /*=====Para modificar posicion barra volumen=======*/
+	right: 377px;
+	display: auto;
+	z-index: 10;
+	box-shadow: 0 0 1px #FFFFFF,
+   0 0 5px #b4b0b0;
+   }
+   a:nth-child(1){
+   filter: hue-rotate(270deg);
+   }
+   a:nth-child(2){
+   filter: hue-rotate(110deg);
+   }
+   a span{
+   position: absolute;
+   display: block;
+   }
+   a span:nth-child(1){
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 2px;
+   background: linear-gradient(90deg,transparent,#);
+   animation: animate1 1s linear infinite;
+   }
+@keyframes animate1{
+0%{
+left: -100%;
+}
+50%,100%{
+left: 100%;
+}
+}
+.Kastrostreaming input[type=range] {
+	width: 141px;
+	height: 3px;                
+	background: none;
+	padding: 6px 0px 6px 0px;
+	transform: rotate(360deg);
+	transform-origin: bottom;
+	-webkit-appearance: none;
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
+}
+.Kastrostreaming input[type=range]:focus {
+	outline: none;
+}
+.Kastrostreaming input[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 6px;
+	background: #b4b0b0;     /*=====Para modificar color de la barra de volumen=======*/
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-radius: 8px;
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;	
+	animate: 0.2s;
+}
+.Kastrostreaming input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #b4b0b0;     /*=====Para modificar color de la barra de volumen=======*/
+}
+.Kastrostreaming input[type=range]::-webkit-slider-thumb {
+	width: 16px;
+	height: 16px;
+	background: #ccc;
+	margin-top: -5px;
+	border: 2px solid #ff000d;
+	border-radius: 50%;
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
+	-webkit-appearance: none;
+}
+.Kastrostreaming input[type=range]::-moz-range-track {
+	width: 100%;
+	height: 6px;
+	background: rgba(255,255,255,.);
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-radius: 8px;
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
+	animate: 0.2s; 
+}
+.Kastrostreaming input[type=range]::-moz-range-thumb {
+	width: 6px;
+	height: 6px;
+	background: #ccc;
+	border: 5px solid #FFFFFF;
+	border-radius: 50%;
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
+}
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.Kastrostreaming input[type=range] {
+		width: 90px;
+		height: 16px;
+		background: none;
+		margin-top: 0px;
+		padding: 6px 0px 6px 0px; 
+		cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
+	}
+}
+.Kastrostreaming input[type=range]::-ms-tooltip {
+	display: none; 
+}
+.Kastrostreaming input[type=range]::-ms-track {
+	width: 100%;
+	height: 6px;
+	background: transparent;
+	color: transparent;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	border-color: transparent;
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
+	animate: 0.2s;  
+}
+.Kastrostreaming input[type=range]::-ms-fill-lower {
+	background: rgba(255,255,255,.);
+	border: 0;
+	border-radius: 8px;
+}
+.Kastrostreaming input[type=range]::-ms-fill-upper {
+	background: rgba(255,255,255,.);
+	border: 0;
+	border-radius: 8px;
+}
+.Kastrostreaming input[type=range]::-ms-thumb {
+	width: 6px;
+	height: 6px;
+	background: #ccc;
+	border: 5px solid #FFFFFF;
+	border-radius: 50%;  
+	cursor: url(https://kastro-59.github.io/star/CD/YATfaoA.png), auto;
+}
+.Kastrostreaming input[type=range]:focus::-ms-fill-lower {
+	background: rgba(255,255,255,.);
+}
+.Kastrostreaming input[type=range]:focus::-ms-fill-upper {
+	background: rgba(255,255,255,.);
+}
+
+
+.Kastrostreaming .history-serv {
+	position: absolute;
+	top: -18px;
+	left: -16;
+	right: 0;
+	margin: 22px auto 0 auto;
+	z-index: 10;
+}
+.Kastrostreaming .history-title {
+	font-size: 24px;
+	color: rgba(255,255,255,1);
+	margin: 0 22px 15px 22px;
+	padding-bottom: 5px;	
+	border-bottom: 1px solid rgba(255,255,255,.7);
+}
+.Kastrostreaming .row-serv {
+	height: 44px;
+	background-color: #747877;     /*=====Para modificar el color de historial=======*/
+	position: relative;
+	margin: 0 22px 9px 22px;	
+	border-radius: 5px;
+}
+.Kastrostreaming .history-cover {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 6px;
+	left: 8px;
+	border-radius: 50%;
+}
+.history-track-info {
+	text-align: left;
+	padding-left: 55px;
+	padding-top: 5px;
+}
+.Kastrostreaming .history-songtitle {
+	max-width: 600px;
+	font-size: 19px;	
+	color: rgba(255,255,255,1);
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.Kastrostreaming .history-artist-name {
+	max-width: 600px;
+	font-size: 16px;
+	color: rgba(255,255,255,.7);
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.Kastrostreaming .rowNum {
+	width: 38px;
+	height: 50px;
+	font-size: 42px;
+	color: rgba(255,255,255,.);
+	text-align: center;
+	position: absolute;
+	top:0px;
+	right: 0px;
+	}
+.Kastrostreaming .social-share-jmd {
+	width: 200px;
+	height: 200px;	
+	box-sizing: border-box;
+	background-color: rgba(0,0,0,.);
+	color: #FFFFFF;
+	font-size: 18px;
+	line-height: 30px;	
+	text-align: center;
+	position: absolute;
+	top: 23px;
+	right: 280;
+	left: 32px;
+	margin: 0px;
+	padding: 70px 0;
+	border-radius: 4px;
+	overflow: hidden;
+	display: none;
+	z-index: 11;
+}
+.Kastrostreaming .social-link {
+	width: 38px;
+	height: 38px;
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 38px;
+	text-decoration: none;
+	margin: 0 4px;
+	border-radius: 50%;
+	display: inline-block;
+	cursor: pointer;
+	
+}
+.Kastrostreaming .social-link-facebook {
+	background: #;
+}
+.Kastrostreaming .social-link-facebook:before {
+	content:url(https://img.xatblog.net/image/57mVO9YbwS.png);
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+.Kastrostreaming .social-link-twitter {
+	background: #;
+}
+.Kastrostreaming .social-link-twitter:before {
+	content:url(https://kastro-59.github.io/star/CD/ns96FGg.png);
+}
+.Kastrostreaming .display {
+	display: block;
+}
+.Kastrostreaming .nodisplay {
+	display: none;
+}
+
+
+@media only screen and (max-width: 400px) {
+	.Kastrostreaming .track-info-serv {
+		margin: 28px 42px 0 42px;
+	}
+	
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+   -webkit-animation: spin 6s linear infinite;
+  animation: spin 6s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+} 
+}
+.animated.bounceIndown {
+  animation-duration: .75s;
+}
+@keyframes bounceIndown {
+  from, 20%, 40%, 60%, 80%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+
+  20% {
+    transform: scale3d(1.1, 1.1, 1.1);
+  }
+
+  40% {
+    transform: scale3d(.9, .9, .9);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale3d(1.03, 1.03, 1.03);
+  }
+
+  80% {
+    transform: scale3d(.97, .97, .97);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale3d(1, 1, 1);
+  }
+}
+.bounceIndown {
+  animation-name: bounceIn;
+}
+@keyframes bounceInDown {
+  from, 60%, 75%, 90%, to {
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d( -3000px,0,0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d( 25px, 0,0);
+  }
+
+  75% {
+    transform: translate3d(1px, 0,0);
+  }
+
+  90% {
+    transform: translate3d( 5px, 0,0);
+  }
+
+  to {
+    transform: none;
+  }
+}
+.bounceInDown {
+  animation-name: bounceInDown;
+}
+.marquee {
+  white-space: nowrap;
+  position: relative;
+  transform: translateX(-50%);
+  display: inline-block;
+  left: 200px;
+  padding-top: 0px;
+  animation: linear infinite;
+  overflow: hidden;
+  text-align: left;
+  animation-duration: 15s;
+  animation-name: movement-smooth;
+  animation-direction: normal;
+}
+.marquee:hover { 
+	animation-play-state: paused 
+}
+.marquee.marquee-speed-custom:before {
+  animation-duration: inherit;
+}
+.marquee.marquee-speed-normal:before {
+  animation-duration: 10s;
+}
+@keyframes movement-smooth {
+  from {
+    transform: translateX(0%);
+    left: 100%;
+  }
+  to {
+    transform: translateX(-100%);
+    left: 0%;
+  }
+}
+.marquee.marquee-movement-smooth:before {
+  animation-name: movement-smooth;
+}
+.marquee.marquee-direction-left:before,
+.marquee.marquee-direction-normal:before {
+  animation-direction: normal;
+  }
+#shareface {
+	position: absolute;
+	left: 10px;
+	top: 115px;
+	width: 44px;
+	height: 202px;
+	z-index: 10;
+}
+.data {
+	position: absolute;
+	font-family: 'Reem Kufi', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	left: 205px;
+	top: 83px;
+	color: #72FF50;
+	width: 236px;
+	height: 19px;
+	z-index: 16;
+	border: 1px;
+}
+#Clock {
+	position: absolute;
+	top: 326px;
+	left: 286px;
+	width: 43px;
+	color: #72FF50;
+	font-family: 'Reem Kufi', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+}
